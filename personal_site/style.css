@@ -1,0 +1,171 @@
+html, body, div, a, p, img, ul, li, footer, header, section, h1, span, a img, aside, article, h2, h3, h4, nav, figure {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+	  text-decoration:none;
+    background-color: #bdccd4;
+}
+
+h1, h2, h3 {
+    font-weight:lighter;
+	}
+
+body {
+   width:940px;
+	 margin:0 auto;
+	 font-size:16px;
+	 font-family: Georgia, Times New Roman, Times, serif;
+	 color:#443d38;
+
+}
+
+/* header */
+
+
+header {
+  width:100%;
+	float:left;
+	border-bottom: dotted 1px #443D38;
+  background-color: #fff;
+	}
+header img {
+   width:100%;
+   float:left;
+   margin:10px 0 10px 0;
+   background-color: #fff;
+
+   }
+header h1 {
+   width:100%;
+   float:left;
+   text-align:center;
+   font-size:50px;
+   font-family: Georgia, Times, serif;
+   margin:40px 0 0 0;
+   background-color: #fff;
+   }
+a, nav a:hover, h1 a:hover {
+   color:#3cabd5;
+   background-color: #443d38;
+
+   }
+
+/* nav */
+nav {
+   width:100%;
+   padding:20px 0 20px 0;
+   float:left;
+   color:#fff;
+   background-color: #443d38;
+   }
+nav ul {
+	text-align:center;
+	font-size:20px;
+  background-color: #443d38;
+	}
+nav ul li {
+  display:inline;
+  background-color: #443d38;
+	}
+nav li a {
+  display:inline-block;
+	color:#fff;
+	padding: 0px 10px 0px 10px;
+
+	}
+
+  /* end of nav */
+
+  /* body content */
+
+.toptext {
+   width:100%;
+   text-align:center;
+   float:left;
+   color:#000;
+   margin:0;
+   padding:20px 0;
+   }  
+
+.home div {
+  width:100%;
+  float:left;
+	clear:both;
+  background-color: #fff;
+	}
+
+section {
+   width:50%;
+   float:left;
+   padding:30px 0 0 0;
+   margin:0 0 30px 0;
+   background-color: #fff;
+   }
+figure {
+   width:390px;
+   height: auto;
+   float:left;
+   margin:10px 0 10px 40px;
+   }
+
+section h1, section h2 {
+   font-family: Georgia, Times, serif;
+   font-size:40px;
+   float:left; 
+   background-color: #fff;
+
+   }
+.home section h1 {
+   width:100%;
+   text-align:center;
+   margin:10px 0 10px 0;
+   }
+h1 a {
+   color:#3cabd5;
+   }
+
+p {
+   width:100%;
+   margin:0 0 20px 0;
+   font-size:16px;
+   background-color: #fff;
+
+   }  
+.home p {
+   width:390px;
+   margin:0 0 20px 40px;
+   background-color: #fff;
+
+   }
+
+ul {
+  width:90%;
+  margin:5px 50px 5px 50px;
+  font-size:16px;
+
+}   
+ul li {
+ background-color: #fff;
+}
+
+/*footer*/
+
+footer {
+   width:100%;
+	 text-align:center;
+	 float:left;
+   color:#fff;
+	 margin:0;
+	 padding:20px 0;
+	 border-top:dotted 1px #443D38;
+   background-color: #443D38;
+	 }	
+
+   /* Comments
+
+   I couldn't figure out a way to set the white background in just place, I had to do it for each unique element
+   I also can't get the body ul list to have alighned to the write, if I assign chnages the navigation gets affected as well
+   I wanted to make the header  gray bar to go all the way accross the page and couldn't figure out how to do it
+	
