@@ -1,0 +1,188 @@
+html, body, div, a, p, img, ul, li, footer, header, section, h1, span, a img, aside, article, h2, h3, h4, nav, figure {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+	  text-decoration:none;
+}
+
+body {
+    border-left: thin #E6E6E6 solid;
+    border-right: thin #E6E6E6 solid;
+    padding: 0 54px 0 54px;
+
+}
+
+body {
+     width:940px;
+     margin: 0 auto;
+     font-size:15px;
+     font-family: 'Lato', sans-serif;
+     line-height: 1.5em;
+     text-align: left;
+     color: #444444;
+}
+
+h1, h2, h3 {
+    font-weight:lighter;
+}
+
+/* header */
+
+
+header {
+    width:100%;
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+
+}
+
+header h1 {
+     width:100%;
+     float:left;
+     text-align:left;
+     font-size:45px;
+     font-family: 'Lato', sans-serif;   margin:20px 0 0 0;
+     color: #DD0000;
+     margin: 20px 0 5px 0;
+}
+
+header span {
+      font-size: 22px;
+      color: black;
+}
+
+a, nav a:hover, h1 a:hover {
+      color:#aa0000;
+
+}
+
+a {
+
+    color: #aa0000;
+}
+
+/* nav */
+
+nav {
+    width:100%;
+    padding:0;
+    margin: 15px 0 25px 0;
+    float:left;
+    background-color: black;
+}
+
+nav ul {
+  	font-size:22px;
+    text-align: center;
+
+}
+
+nav ul li {
+    display:inline;
+
+}
+
+nav li a {
+    display:inline-block;
+    color: #ddd;
+    margin: 15px;
+    padding: 0 10px 0 10px;
+    height: auto;
+    background-position: fixed;
+
+}
+
+/* body info */
+
+section {
+    width:600px;
+    float:left;
+    padding:0; 
+
+}
+section p {
+    width: inherit;
+}
+
+figure {
+     width: 300px;
+     float: right;
+     clear: right;
+
+} 
+figure img {
+      border-top: thin #ddd solid;
+      border-bottom: thin #ddd solid;
+      padding: 30px 0 30px 0;
+}
+
+div img {
+      width:inherit;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+
+h2 span {
+      font-size: 28px;
+      color: #cccccc;
+}
+
+h2 {
+      font-size: 28px;
+      margin: 20px 0 20px 0;
+      padding: 10px 0 0 0;
+
+}
+
+h3 {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 20px 0 20px 0;
+      padding: 10px 0 0 0;
+
+}
+
+h4 {
+      width: inherit;
+      font-size: 12px;
+      font-weight: bold;
+      text-align: right;
+      margin: 0;
+      border-bottom: solid 1px #ddd;
+      padding-bottom: 30px;
+}
+
+.main ul {
+      margin: 0 0 0 50px;
+}
+
+
+
+/* footer */
+
+footer {
+     width:100%;
+     padding:30px 0 45px 0;
+     color: #bbbbbb;
+     clear: left;
+
+}
+
+footer ul {
+      font-size:14px;
+      margin: 0 0 10px 0;
+}
+
+footer ul li {
+      display:inline;
+}
+
+footer li a {
+      display:inline-block;
+      color: #DD0000;
+      padding:0 2px 0 2px;
+      border-bottom: thin #f0f0f0 solid;
+
+}
