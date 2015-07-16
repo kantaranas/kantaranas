@@ -44,7 +44,7 @@ header h1 {
      text-align:left;
      font-size:45px;
      font-family: 'Lato', sans-serif;   margin:20px 0 0 0;
-     color: #DD0000;
+     color: #444;
      margin: 20px 0 5px 0;
 }
 
@@ -60,7 +60,7 @@ a, nav a:hover, h1 a:hover {
 
 a {
 
-    color: #aa0000;
+    color: #dd0000;
 }
 
 /* nav */
