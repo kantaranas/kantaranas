@@ -1,0 +1,285 @@
+html, body, div, a, p, img, ul, li, footer, header, section, h1, span, a img, aside, article, h2, h3, h4, nav, figure {
+  margin-left: auto;
+  margin-right: auto;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  text-decoration:none;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+  background: url("../images/bg.png") repeat;
+  background-color: #333333;
+  overflow-x:hidden;
+  width:100%;
+}
+
+
+#main {
+  width: 960px;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: black;
+  margin: 0 auto;
+  display: block;
+}
+
+
+nav a {
+  font-size: 18px;
+  color: #cccccc;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  padding: 30px 0 30px 0;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+nav a:hover {
+  color: #ffffff;
+  background-color: #ff7401;
+}
+
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+  height: 0;
+  font-size: 0;
+  visibility: hidden;
+}
+
+
+#logo img {
+  padding: 20px 0 20px 0;
+}
+
+#social1 {
+  float: right;
+  background: url("../images/rss.png") no-repeat;
+  background-position: 24px 24px;
+  padding: 25px 5px 15px 20px;
+  width: 48px;
+  height: 48px;
+}
+
+#social1:hover {
+  float: right;
+  background: url("../images/rss-selected.png") no-repeat;
+  background-position: 24px 24px;
+  width: 48px;
+  height: 48px;
+}
+
+#social2 {
+  float: right;
+  background: url("../images/twitter.png") no-repeat;
+  background-position: 24px 24px;
+  padding: 25px 5px 15px 20px;
+  width: 48px;
+  height: 48px;
+}
+
+#social2:hover {
+  float: right;
+  background: url("../images/twitter-selected.png") no-repeat;
+  background-position: 24px 24px;
+  width: 48px;
+  height: 48px;
+}
+
+#social3 {
+  float: right;
+  background: url("../images/facebook.png") no-repeat;
+  background-position: 24px 24px;
+  padding: 25px 5px 15px 20px;
+  width: 48px;
+  height: 48px;
+}
+
+#social3:hover {
+  float: right;
+  background: url("../images/facebook-selected.png") no-repeat;
+  background-position: 24px 24px;
+  width: 48px;
+  height: 48px;
+}
+
+
+#social4 {
+  float: right;
+  background: url("../images/google.png") no-repeat;
+  background-position: 24px 24px;
+  padding: 25px 5px 15px 20px;
+  width: 48px;
+  height: 48px;
+}
+
+#social4:hover {
+  float: right;
+  background: url("../images/google-selected.png") no-repeat;
+  background-position: 24px 24px;
+  width: 48px;
+  height: 48px;
+}
+
+
+a {
+  color: #1FA2E1;
+
+}
+
+a, nav a:hover, h1 a:hover {
+   text-decoration: none;
+}
+
+.dualborder {
+  overflow: hidden;
+  border-top: 1px solid #808080;
+  border-left: 1px solid #c0c0c0;
+  border-bottom: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+}
+
+.dualborder {
+  padding: 20px;
+}
+
+.dualborder p {
+  width: 75%;
+  float: left;
+}
+
+.button {
+  float: right;
+  display: inline-block;
+}
+
+
+.boxborder {
+  border: 6px #E2E2E2 solid;
+}
+
+.boxborder:hover {
+  border: 6px #F9F9F9 solid;
+}
+
+#home-boxes {
+  width: 290px;
+  float: left;
+  padding: 10px;
+}
+
+.home-box {
+  margin: 10px 0 10px 0;
+  display: inline-block;
+}
+
+#home-boxes p {
+  margin: 20px 0 20px 0;
+  font-size: 12px;
+}
+
+#home-boxes h1 {
+  font-size: 25px;
+  margin: 20px 0 20px 0;
+}
+
+footer {
+  background: black;
+  display: block;
+  width: 100%;
+}  
+
+footer {
+  color: white;
+  font-size: 13px;
+  padding: 50px 0 30px 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+footer h1 {
+  font-size: 25px;
+  color: #ccc;
+  border-bottom: thin solid #515151; 
+  padding: 0 0 15px 0;
+
+} 
+
+footer h2 {
+  color: #ccc;
+}
+
+footer ul {
+  color: #515151;
+  line-height: 2.5em;  
+}
+
+footer ul li {
+  border-bottom: thin solid #515151;
+
+}
+
+footer li a {
+  color: #515151;
+}
+
+footer li a:hover {
+  color: #1FA2E1;
+}
+
+footer p {
+  color: #515151; 
+  line-height: 1.5em;
+  padding: 10px 0 0 0;
+
+}
+
+.box1-footer {
+  float: left;
+  width: 210px;
+  margin: 0 10px 0 10px;
+  text-align: left;
+  display: inline-block;
+}
+
+
+.middle-widget {
+  width: 400px;
+  margin: 0 15px 0 15px;
+  text-align: left;
+  float: left;
+  display: inline-block;
+}
+
+.box2-footer {
+  float: left;
+  width: 210px;
+  margin: 0 10px 0 10px;
+  text-align: left;
+  display: inline-block;
+}
+
+#copyright {
+  clear: left;
+  float: left;
+  color: #515151;
+  font-size: 11px;
+  padding-top: 50px;
+}
+
+#companybottom {
+  clear: right;
+  float: right;
+  color: #515151;
+  font-size: 11px;
+  padding-top: 50px;
+  display: block;
+}
