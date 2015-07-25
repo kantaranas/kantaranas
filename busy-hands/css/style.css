@@ -23,27 +23,25 @@ body {
   margin: 0 auto;
 }
 
-nav {
-  background-color: black;
-  margin: 0 auto;
-  display: block;
+header {
+    background: black;
 }
 
+nav {
+    width: 960px;
+    margin: 0 auto;
+}
 
 nav a {
-  font-size: 18px;
-  color: #cccccc;
-  width: 100px;
-  text-align: center;
+  color: white;
   text-decoration: none;
-  padding: 30px 0 30px 0;
   display: inline-block;
-  margin: 0 auto;
+  padding: 25px;
 }
 
 nav a:hover {
-  color: #ffffff;
-  background-color: #ff7401;
+  background: rgb(222,222,222);
+  color: black;
 }
 
 .clearfix:after {
