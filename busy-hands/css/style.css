@@ -190,9 +190,13 @@ a, nav a:hover, h1 a:hover {
 }
 
 footer {
+    width: 960px;
+    margin: 0 auto;
+}
+
+footer {
   background: black;
   display: block;
-  width: 100%;
 }  
 
 footer {
