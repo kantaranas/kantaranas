@@ -6,6 +6,7 @@ html, body, div, a, p, img, ul, li, footer, header, section, h1, span, a img, as
   outline:0;
   font-size:100%;
   text-decoration:none;
+  display: inline-block;
 }
 
 body {
@@ -196,7 +197,6 @@ footer {
 
 footer {
   background: black;
-  display: block;
 }  
 
 footer {
