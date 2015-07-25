@@ -46,8 +46,8 @@ nav a {
 }
 
 nav a:hover {
-  background: rgb(222,222,222);
-  color: black;
+  background-color: #66B2FF;
+  color: #004C99;
 }
 
 .clearfix:after {
