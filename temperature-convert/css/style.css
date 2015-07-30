@@ -1,0 +1,184 @@
+html, body, div, a, p, img, ul, li, footer, header, section, h1, span, a img, aside, article, h2, h3, h4, nav, figure {
+  margin-left: auto;
+  margin-right: auto;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  text-decoration:none;
+}	
+
+body {
+	background-color: #edebe6;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}    
+
+h1 {
+	font-family: sans-serif;
+  	color: #fff;
+  	font-size: 32px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h1 {
+	background-color: #4e4227;	
+	margin: 0 auto;
+	padding: 20px 0 20px 0;
+	overflow: hidden;
+}
+
+h2 {
+	font-family: sans-serif;
+  	color: #fff;
+  	font-size: 23px;
+  	line-height: 1.5em;
+	color: #4e4227;
+	text-align: center;
+}
+
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+  height: 0;
+  font-size: 0;
+  visibility: hidden;
+}
+
+#main {
+	width: 900px;
+	height: 650px;
+	margin: 0 auto;
+}
+
+#main {
+	background-color: #f4f2ec;
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border: 0px;
+}
+
+#season1 {
+	clear: left;
+	float: left;
+	background: url("../imgs/season01.png") no-repeat;
+	background-position: bottom;
+	background-size: 150px;
+	width: 150px;
+	height: 150px;
+	padding: 50px;
+	margin: 30px 30px 0 30px;
+	display: block;
+
+}
+
+#season2 {
+	float: left;
+	background: url("../imgs/season02.png") no-repeat;
+	background-position: bottom;
+	background-size: 150px;
+	width: 150px;
+	height: 150px;
+	padding: 50px;
+	margin: 30px 30px 0 30px;
+	display: inline-block;
+}
+
+#season3 {
+	float: left;
+	background: url("../imgs/season03.png") no-repeat;
+	background-position: bottom;
+	background-size: 150px;
+	width: 150px;
+	height: 150px;
+	padding: 50px;
+	margin: 30px 30px 0 30px;
+	display: inline-block;
+}
+
+#season4 {
+	float: left;
+	background: url("../imgs/season04.png") no-repeat;
+	background-position: bottom;
+	background-size: 150px;
+	width: 150px;
+	height: 150px;
+	padding: 50px;
+	margin: 30px 30px 0 30px;
+	display: inline-block;
+}
+
+#formulas {
+	width: 850px;
+	text-align: center;
+
+}
+
+#wrapper1 {
+	float: left;
+	width: 240px;
+	margin: 25px 0 25px 30px;
+	height: 200px;
+	background-color: #fff;
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border: 0px;
+}
+
+
+#wrapper2 {
+	float: left;
+	margin: 10px;
+	display: block;
+}
+
+#wrapper3 {
+	float: left;
+	width: 240px;
+	margin: 25px 0 25px 20px;
+	height: 200px;
+	background-color: #fff;
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border: 0px;
+}
+
+div input {
+  padding: 10px;
+  margin-top: 10px;
+  color: #61553B;
+  text-align: center;
+  
+}
+
+#convertF2C {
+	display: block;
+	border: 1px solid black;
+	padding: 10px 20px 10px 20px;
+	margin: 70% 0;
+	background-color: #4e4227;
+}
+
+#convertF2C:hover {
+  background-color: #1d818d;
+}
+
+#clear {
+	display: block;
+	border: 1px solid black;
+	padding: 10px 20px 10px 20px;
+	margin: 75% 0;
+	background-color: #6d5523;
+}
+
+#clear:hover {
+  background-color: #1d818d;
+}
+
+
+button {
+  padding: 10px 0px 50px 20px;
+  font-size: 1.2em;
+  color: #fff;
+}
