@@ -75,10 +75,7 @@ nav a {
 
 
 .banner {
-<<<<<<< HEAD
 	overflow: hidden;
-=======
->>>>>>> origin/master
 	background-image: url("../images/coworking.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -88,16 +85,8 @@ nav a {
 
 
 #blurb {
-<<<<<<< HEAD
 	float: right;
 	display: inline-block;
-=======
-	/*float: right;*/
-	display: inline-block;
-	position: relative;
-	top: 0px;
-	right: 0px;
->>>>>>> origin/master
 	width: 35%;
 	height: 25%;
 	margin: 3%;
@@ -358,12 +347,8 @@ footer p {
 		width: auto;
 		display:none;
 	}
-	
-<<<<<<< HEAD
+
 	.menu-toggle {
-=======
-	#menu-toggle {
->>>>>>> origin/master
 		display: block;
 		line-height: 55px;
 	}
